@@ -1,3 +1,18 @@
-//
-// Created by Pedro Victor Gomes de Araujo on 29/02/24.
-//
+#include <stdio.h>
+#include <string.h>
+
+int main (){
+
+    int quantidade_parenteses,uniao,contador_casos=0;
+
+    while (contador_casos<20){
+
+        scanf("%d %d",&quantidade_parenteses,&uniao);
+
+
+
+        contador_casos++;
+    }
+
+    return 0;
+}

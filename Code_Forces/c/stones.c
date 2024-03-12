@@ -1,23 +1,23 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(){
-    char primeira_pedra,pedra;
-    int quantidade,resultado=0;
-    scanf("%d",&quantidade);
 
-    scanf("%c",&primeira_pedra);
-    while(quantidade>0){
-        scanf("%c",&pedra);
-        if (pedra==primeira_pedra){
-            resultado+=1;
+    int quantidade = 0,resultado=0;
+
+    scanf("%d\n",&quantidade);
+
+    char pedras[quantidade];
+    fgets(pedras,quantidade+1,stdin);
+    for (int i=0; i<quantidade-1; i++ ){
+        if (pedras[i]==pedras[i+1]){
+            resultado++;
         }
-        else{
-            break;
-        }
-        quantidade-=1;
+
     }
 
-    printf("%d",resultado);
+    printf("%d\n",resultado);
+
 
     return 0;
 }

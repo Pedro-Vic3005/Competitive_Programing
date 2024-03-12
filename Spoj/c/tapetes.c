@@ -2,18 +2,13 @@
 
 int main(){
 
-    int quantidade,i;
+    long long tamanho_tubo,quantidade_tapetes,soma;
 
-    scanf("%d",&quantidade);
+    scanf("%lld %lld",&tamanho_tubo,&quantidade_tapetes);
 
-    int numeros[quantidade],comparacao[quantidade];
+    soma=(tamanho_tubo-(quantidade_tapetes-1))*(tamanho_tubo-(quantidade_tapetes-1))+(quantidade_tapetes-1);
 
-    for (i=0;i<quantidade;i++){
-        scanf("%d",&numeros[i]);
-        numeros[i]=comparacao[i];
-    }
-
-    for ()
+    printf("%lld",soma);
 
     return 0;
 }

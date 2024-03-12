@@ -1,3 +1,14 @@
-//
-// Created by Pedro Victor Gomes de Araujo on 30/01/24.
-//
+#include <stdio.h>
+
+int main(){
+
+    int n,fatorial=1;
+
+    scanf("%d",&n);
+    while (n>0){
+        fatorial*=n;
+        n-=1;
+    }
+    printf("%d",fatorial);
+    return 0;
+}
