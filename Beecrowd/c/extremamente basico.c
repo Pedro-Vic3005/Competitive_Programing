@@ -11,6 +11,5 @@ int main(){
 
     printf("X = %d\n",soma);
 
-
     return 0;
 }

@@ -16,7 +16,9 @@ int main(){
 
     scanf("%s",nome);
 
-    int a = strlen(nome);
-    printf("%d",a);
+    for (int i=0; i<4;i++){
+        printf("%c",nome[i]);
+    }
+    printf("|");
     return 0;
 }
