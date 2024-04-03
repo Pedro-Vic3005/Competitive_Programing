@@ -19,9 +19,9 @@ int main (){
             E[i]=tamanho;
         }
     }
-    //printf("%d\n",sizeof(D)/sizeof (D[0]));
-    for (i=sizeof(D)/sizeof(D[0])-1; i>=0; i--){
-        for (j=sizeof(E)/sizeof(E[0])-1; j>=0; j--){
+
+    for (i=0; i<botas; i++){
+        for (j=0; j<botas; j++){
             if (D[i]==E[j]){
                 pares++;
                 E[j]=-1;
