@@ -8,7 +8,6 @@ int main(){
     while (size>=0){
         if (size==0){
             break;
-            printf("fim");
         }
         scanf("%d",&size);
 
@@ -18,7 +17,7 @@ int main(){
             ponto_ref=size/2;
 
             for (separador_2=1,i=ponto_ref-1;i>-1;separador_2+=2,i--){
-                for (separador=1,j=ponto_ref-1;j>-1;separador+=2,j--){
+                for (separador=1,j=ponto_ref-1; j>-1; separador+=2,j--){
                     if (i>=j){
                         matriz[i][j]=j+1;
                         matriz[i][j+separador]=j+1;
