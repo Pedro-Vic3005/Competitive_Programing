@@ -3,6 +3,7 @@
 int main(){
 
     int size,i,j,temp;
+
     printf("Digite o tamanho do vetor: ");
     scanf("%d",&size);
 

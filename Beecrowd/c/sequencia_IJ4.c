@@ -10,15 +10,15 @@ int main(){
         int c=1;
         while (c<4){
 
-            if (i==1 || i==0  || i==2){
-                printf("I=%.0lf ",i);
+            if (i==(int)i){
+                printf("I=%d ",(int)i);
             }
             else{
                 printf("I=%.1lf ",i);
             }
 
-            if (j==1 || j==2 || j==3 || j==4 || j==5){
-                printf("J=%.0lf\n",j);
+            if (j==(int)j){
+                printf("J=%d\n",(int)j);
             }
             else{
                 printf("J=%.1lf\n",j);
